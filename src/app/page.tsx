@@ -32,19 +32,19 @@ const hardwareProjects = [
   {
     title: 'Self-Guided Aid Rover',
     description: 'An autonomous rover designed for search and rescue missions, equipped with advanced navigation and obstacle avoidance systems.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-aid-rover.jpg',
     imageHint: 'robotics rover',
   },
   {
     title: 'Human Fall Detector',
     description: 'A wearable device that uses sensors and machine learning to detect falls and automatically alert emergency contacts.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-fall-detector.jpg'
     imageHint: 'wearable technology',
   },
   {
     title: 'Fire Extinguisher Robot',
     description: 'An autonomous robot capable of detecting fires and navigating to them to deploy an extinguisher, enhancing safety in homes.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-fire-robot.jpg',
     imageHint: 'firefighter robot',
   },
 ];
