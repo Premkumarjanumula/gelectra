@@ -18,7 +18,7 @@ const hardwareProjects = [
   {
     title: 'Human Fall Detector',
     description: 'A wearable device using sensor technology to detect falls and send alerts, securing 2nd prize at SIH 2024 and 1st at VISHESH-2024.',
-    image: '/images/project-fall-detector.jpg'
+    image: '/images/project-fall-detector.jpg',
     imageHint: 'health tech device',
     tags: ['IoT', 'Healthcare', 'Award Winning'],
   },
