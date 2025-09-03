@@ -38,7 +38,7 @@ const hardwareProjects = [
   {
     title: 'Human Fall Detector',
     description: 'A wearable device that uses sensors and machine learning to detect falls and automatically alert emergency contacts.',
-    image: '/images/project-fall-detector.jpg'
+    image: '/images/project-fall-detector.jpg',
     imageHint: 'wearable technology',
   },
   {
