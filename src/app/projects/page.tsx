@@ -11,21 +11,21 @@ const hardwareProjects = [
   {
     title: 'Self-Guided Aid Rover',
     description: 'An autonomous rover for search and rescue, featuring advanced navigation and awarded 1st prize at Smart India Hackathon (SIH) 2024.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-aid-rover.jpg',
     imageHint: 'autonomous rover',
     tags: ['Robotics', 'AI', 'SIH Winner'],
   },
   {
     title: 'Human Fall Detector',
     description: 'A wearable device using sensor technology to detect falls and send alerts, securing 2nd prize at SIH 2024 and 1st at VISHESH-2024.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-fall-detector.jpg'
     imageHint: 'health tech device',
     tags: ['IoT', 'Healthcare', 'Award Winning'],
   },
   {
     title: 'Fire Extinguisher Robot',
     description: 'An autonomous robot that detects and extinguishes fires, winning 2nd prize at MICROCOSM 24 for its innovation in safety.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-fire-robot.jpg',
     imageHint: 'safety robot',
     tags: ['Robotics', 'Automation', 'Safety'],
   },
