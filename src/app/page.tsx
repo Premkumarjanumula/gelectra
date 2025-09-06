@@ -53,13 +53,13 @@ const softwareProjects = [
   {
     title: 'G-Electra Hub Website',
     description: 'The official website for the G-Electra club, built with Next.js, TypeScript, and Firebase for a seamless user experience.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-club-website.jpg',
     imageHint: 'modern website design',
   },
   {
     title: 'Event Registration System',
     description: 'A dynamic event management and registration system integrated into the club website, handling user sign-ups and event details.',
-    image: 'https://placehold.co/600x400.png',
+    image: '/images/project-event-system.jpg',
     imageHint: 'online registration form',
   }
 ]
