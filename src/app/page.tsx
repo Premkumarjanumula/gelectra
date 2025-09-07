@@ -52,7 +52,7 @@ const hardwareProjects = [
 const softwareProjects = [
   {
     title: 'G-Electra Hub Website',
-    description: 'The official website for the G-Electra club, built with Next.js, TypeScript, and Firebase for a seamless user experience.',
+    description: 'The official website for the G-Electra club, built with Next.js and TypeScript for a seamless user experience.',
     image: '/images/project-club-website.jpg',
     imageHint: 'modern website design',
   },
