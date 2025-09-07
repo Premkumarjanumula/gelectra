@@ -8,11 +8,61 @@ import { Inter, Audiowide } from 'next/font/google';
 import { FloatingCTA } from '@/components/floating-cta';
 
 export const metadata: Metadata = {
-  title: 'G-Electra',
-  description: 'The official website for G-ELECTRA – Smart Systems Club.',
+  title: {
+    default: 'G-Electra',
+    template: '%s | G-Electra',
+  },
+  description:
+    'G-Electra is the official Electronics & Smart Systems Club in GITAM Hyderabad. Explore our projects, innovation in electronics, student team, and upcoming events.',
+  keywords: [
+    'G-Electra',
+    'Electronics Club',
+    'Smart Systems Club',
+    'GITAM Hyderabad',
+    'Electronics Club in GITAM Hyderabad',
+    'Engineering Innovation',
+    'Student Club',
+    'Tech Club Hyderabad',
+    'G-Electra Hyderabad',
+  ],
+  authors: [{ name: 'G-Electra Web Team' }],
+  creator: 'G-Electra Web Development Team',
+  publisher: 'G-Electra',
+  metadataBase: new URL('https://gelectra.tech'),
+  alternates: {
+    canonical: 'https://gelectra.tech',
+  },
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://gelectra.tech',
+    siteName: 'G-Electra',
+    title: 'G-Electra | Electronics & Smart Systems Club at GITAM Hyderabad',
+    description:
+      'G-Electra is the official Electronics & Smart Systems Club in GITAM Hyderabad. Explore our projects, student innovation in electronics, and upcoming events.',
+    images: [
+      {
+        url: '/images/og-banner.png', // ✅ place the new banner here
+        width: 1200,
+        height: 630,
+        alt: 'G-Electra - Electronics & Smart Systems Club at GITAM Hyderabad',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'G-Electra | Electronics & Smart Systems Club at GITAM Hyderabad',
+    description:
+      'G-Electra is the official Electronics & Smart Systems Club in GITAM Hyderabad. Discover projects, innovation, and student activities.',
+    images: ['/images/og-banner.png'],
+    creator: '@gelectra', // optional if Twitter/X handle exists
+  },
   icons: {
     icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
   },
+  category: 'technology',
 };
 
 const inter = Inter({
@@ -34,13 +84,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={cn('font-body antialiased min-h-screen bg-background flex flex-col', inter.variable, audiowide.variable)}>
+    <html lang="en" className={cn(inter.variable, audiowide.variable)}>
+      <body>
         <Header />
-        <main className="flex-grow">{children}</main>
+        {children}
         <Footer />
-        <Toaster />
         <FloatingCTA />
+        <Toaster />
       </body>
     </html>
   );
