@@ -64,7 +64,7 @@ const executiveBoard = [
         { name: 'Karthik Pagidi', designation: 'Design lead', image: '/images/karthikpagidi.jpg', hint: 'man portrait' },
         { name: 'Sai Krishna', designation: 'Marketing', image: '/images/saikrishna2.jpg', hint: 'man portrait' },
         { name: 'Sampreeth', designation: 'Web Dev Lead', image: '/images/sampreeth.jpg', hint: 'man portrait' },
-        { name: 'Showry James', designation: 'Content & Magazine', image: '/images/showryjames2.jpg', hint: 'man portrait' },
+        { name: 'Showry James', designation: 'Content & Magazine', image: '/images/showryjames.jpg', hint: 'man portrait' },
     ],
   },
   {
