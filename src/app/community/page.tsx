@@ -72,7 +72,7 @@ const executiveBoard = [
     title: 'The Founder Phase',
     members: [
         { name: 'P S Pranav', designation: 'Secretary', image: '/images/pspranav.jpg', hint: 'man portrait' },
-        { name: 'Palle Deepak', designation: 'Joint Secretary', image: '/images/palledeepak2.jpg', hint: 'man portrait' },
+        { name: 'Palle Deepak', designation: 'Joint Secretary', image: '/images/palledeepak.jpg', hint: 'man portrait' },
         { name: 'Datta Praneeth', designation: 'Joint Secretary', image: '/images/dattapraneeth.jpg', hint: 'man portrait' },
         { name: 'Saketh Anand', designation: 'Project Lead', image: '/images/sakethanand.jpg', hint: 'man portrait' },
         { name: 'Sai Kumar', designation: 'Event Management', image: '/images/saikumar.jpg', hint: 'man portrait' },
