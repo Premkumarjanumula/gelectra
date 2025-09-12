@@ -9,7 +9,7 @@ import { FloatingCTA } from '@/components/floating-cta';
 
 export const metadata: Metadata = {
   title: {
-    default: 'G-Electra',
+    default: 'G-Electra | Electronics & Smart Systems Club at GITAM Hyderabad',
     template: '%s | G-Electra',
   },
   description:
