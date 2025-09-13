@@ -89,14 +89,15 @@ const executiveBoard = [
 const boardPhases = ['2025 - 2026', '2024 - 2025', '2023 - 2024', '2022 - 2023'];
 
 const lastMinuteTaglines = [
-    "Every ending opens the door to a new beginning.",
-    "Thank you to our leaders who guided us this far.",
-    "Here’s to the memories we created together.",
-    "Your efforts shaped today, your vision built tomorrow.",
-    "With pride, we pass the torch to new hands.",
-    "Welcoming fresh energy, ideas, and leadership!",
-    "The Future is Now — Congratulations EB 2025–2026!",
-    "A new journey starts, with brighter horizons ahead.",
+  "The journey of EB 2024–2025 gracefully comes to an end..",
+  "With every farewell, a new chapter quietly unfolds..",
+  "Thank you to our leaders who guided us this far.",
+  "Here’s to the memories and milestones we created together that time cannot erase..",
+  "Your efforts shaped today, your vision powers tomorrow.",
+  "With pride, we pass the torch to new innovators.",
+  "Welcoming fresh energy, ideas, and leadership!",
+  "EB 2025–2026 — may your legacy shine even brighter.",
+  "Together, let’s spark innovation and light up G-Electra!",
 ];
 
 const FinalMessage = () => (
@@ -119,10 +120,10 @@ const Countdown = ({ onFinished }: { onFinished: () => void }) => {
     const taglineIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
     useEffect(() => {
-        // Set the reveal date to September 15, 2:00 PM
+        // Set the reveal date to September 15, 3:00 PM
         const revealDate = new Date();
         revealDate.setFullYear(new Date().getFullYear(), 8, 15); // Month is 0-indexed, so 8 is September
-        revealDate.setHours(14, 0, 0, 0); // 2:00 PM
+        revealDate.setHours(15, 0, 0, 0); // 3:00 PM
 
         const timer = setInterval(() => {
             const now = new Date();
@@ -231,7 +232,7 @@ export default function CommunityPage() {
     const checkDate = () => {
         const revealDate = new Date();
         revealDate.setFullYear(new Date().getFullYear(), 8, 15); // September 15th
-        revealDate.setHours(14, 0, 0, 0); // 2:00 PM
+        revealDate.setHours(15, 0, 0, 0); // 3:00 PM
         if (new Date() >= revealDate) {
             handleReveal(true); // Directly reveal if date is past
             return true;
