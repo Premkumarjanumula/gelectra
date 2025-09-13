@@ -71,9 +71,9 @@ const executiveBoard = [
     phase: '2022 - 2023',
     title: 'The Founder Phase',
     members: [
-        { name: 'P S Pranav', designation: 'Secretary', image: '/images/pspranav.jpg', hint: 'man portrait' },
+        { name: 'M V N P S Pranav', designation: 'Secretary', image: '/images/pspranav.jpg', hint: 'man portrait' },
         { name: 'Palle Deepak', designation: 'Joint Secretary', image: '/images/palledeepak.jpg', hint: 'man portrait' },
-        { name: 'Datta Praneeth', designation: 'Joint Secretary', image: '/images/dattapraneeth.jpg', hint: 'man portrait' },
+        { name: 'Datta Pranesh', designation: 'Joint Secretary', image: '/images/dattapraneeth.jpg', hint: 'man portrait' },
         { name: 'Saketh Anand', designation: 'Project Lead', image: '/images/sakethanand.jpg', hint: 'man portrait' },
         { name: 'Sai Kumar', designation: 'Event Management', image: '/images/saikumar.jpg', hint: 'man portrait' },
         { name: 'Keerthi K', designation: 'Marketing Lead', image: '/images/keerthik.jpg', hint: 'woman portrait' },
@@ -81,7 +81,7 @@ const executiveBoard = [
         { name: 'D Varun sai', designation: 'Creative Design Lead', image: '/images/dvarunsai.jpg', hint: 'man portrait' },
         { name: 'M Sathvika', designation: 'Content & Magazine', image: '/images/msathvika.jpg', hint: 'woman portrait' },
         { name: 'Ravi Chandra', designation: 'Treasurer', image: '/images/ravichandra.jpg', hint: 'man portrait' },
-        { name: 'Sreenija Pulta', designation: 'Content & Magazine', image: '/images/sreenijapulta.jpg', hint: 'woman portrait' },
+        { name: 'Sreenija Putta', designation: 'Content & Magazine', image: '/images/sreenijapulta.jpg', hint: 'woman portrait' },
     ],
   },
 ];
