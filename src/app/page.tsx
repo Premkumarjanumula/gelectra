@@ -65,9 +65,9 @@ const softwareProjects = [
 ]
 
 const mentors = [
-    { name: 'T Madhavi', designation: 'Mentor (2023-2024)', image: '/images/tmadhavi.jpg', hint: 'woman portrait' },
-    { name: 'Naresh Kumar', designation: 'Mentor (2022-2023)', image: '/images/nareshkumar.jpg', hint: 'man portrait' },
-    { name: 'D Anitha', designation: 'Mentor (2024-2025)', image: '/images/danitha.jpg', hint: 'woman portrait' },
+    { name: 'T Madhavi', designation: 'Mentor', image: '/images/tmadhavi.jpg', hint: 'woman portrait' },
+    { name: 'Naresh Kumar', designation: 'Mentor', image: '/images/nareshkumar.jpg', hint: 'man portrait' },
+    { name: 'D Anitha', designation: 'Mentor', image: '/images/danitha.jpg', hint: 'woman portrait' },
 ];
 
 const achievements = [
