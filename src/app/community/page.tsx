@@ -30,7 +30,7 @@ const executiveBoard = [
         { name: 'J M Sai Sathvik', designation: 'Innovatech Hardware Lead', image: '/images/jmsaisathvik.jpg', hint: 'man portrait' },
         { name: 'Raghava', designation: 'Innovatech Software Lead', image: '/images/raghava.jpg', hint: 'man portrait' },
         { name: 'P. Varshith Reddy', designation: 'Marketing Lead', image: '/images/pvarshithreddy.jpg', hint: 'man portrait' },
-        { name: 'Bavana', designation: 'Content Craft Lead', image: '/images/bavana.jpg', hint: 'woman portrait' },
+        { name: 'Bhavana', designation: 'Content Craft Lead', image: '/images/bavana.jpg', hint: 'woman portrait' },
         { name: 'Sai Manish Reddy', designation: 'Web Development Lead', image: '/images/saimanishreddy.jpg', hint: 'man portrait' },
     ],
   },
