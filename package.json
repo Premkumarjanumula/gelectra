@@ -45,7 +45,7 @@
     "firebase-admin": "^13.4.0",
     "genkit": "^1.14.1",
     "lucide-react": "^0.475.0",
-    "next": "15.3.3",
+    "next": "15.3.8",
     "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.5",
     "patch-package": "^8.0.0",
